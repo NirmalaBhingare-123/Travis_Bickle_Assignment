@@ -1,0 +1,36 @@
+<div class="wholebody">
+<section class="Form my-4 mx-5" >
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 mt-5">
+                <img src="../../assets/images/images.jpg" alt="Responsive image" class="img-fluid">
+            </div>
+            <div class="col-lg-7 px-5 pt-2">
+                <h1 class="font-weight-bold py-3">User Login</h1>
+                <h4>Sign into your Account</h4>
+                <form action="">
+                    <div class="form-row">
+                        <div class="col-lg-7">
+                            <input type="email" class="form-control my-3 p-4" placeholder="Email-Address" #u1>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-lg-7">
+                            <input type="password" class="form-control my-3 p-4" placeholder="********" #p2>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-lg-7">
+                            <button type="button" class="btn mt-3 mb-5" (click)="checkLogin(u1.value,p2.value)">Login</button>
+                        </div>
+                    </div>
+                    <a href="">Forget Password</a>
+                    <p class="mb-4">Don't have an account?<a href="">Register here</a></p>
+                </form>
+
+                <!-- <p>{{msg}}</p> -->
+            </div>
+        </div>
+    </div>
+</section>
+</div>
